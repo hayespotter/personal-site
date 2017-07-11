@@ -1,1 +1,39 @@
 @import 'bootstrap-grid.scss';
+
+$gray: #141414;
+$black: #000;
+$white: #fff;
+
+$mono: 'PT Mono', monospace;
+$sans: 'Open Sans', sans-serif;
+
+body {
+    background: $black;
+    color: $white;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: $sans;
+    color: #fff;
+    line-height: 1.1;
+}
+
+header {
+    padding-top: 50px;
+
+    h1 {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        text-transform: lowercase;
+        margin: 0;
+        display: inline-block;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+        padding-right: 80px;
+
+        span {
+            font-weight: 300;
+        }
+    }
+}
